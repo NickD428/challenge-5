@@ -12,4 +12,19 @@ $(function () {
     var description = timeBlock.find(".description").val();
     localStorage.setItem(hourId, description);
   });
+  var currentHour = dayjs().format("H");
+
+  $(".time-block").each(function () {
+    var hourId = $(this).attr("id");
+
+    if (hourId < currentHour) {
+      $(this).removeClass("present future").addClass("past");
+    } else if (hourId === currentHour) {
+      $(this).removeClass("past future").addClass("present");
+    } else {
+      $(this).removeClass("past present").addClass("future");
+    }
+  });
+
+
 });
