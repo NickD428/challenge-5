@@ -26,5 +26,12 @@ $(function () {
     }
   });
 
+  $(".time-block").each(function () {
+    var hourId = $(this).attr("id");
+    var savedDescription = localStorage.getItem(hourId);
 
+    if (savedDescription) {
+      $(this).find(".description").val(savedDescription);
+    }
+  });
 });
