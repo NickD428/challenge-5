@@ -31,7 +31,7 @@
   open the index.html file in your browser
   
   ## Questions
-  Project created by NickD248!
+  Project created by NickD248 with the help of youtube and ChatGPT!
   Check out my other works here! https://github.com/NickD248
   Questions? Contact me here: chargerfan428@aol.com
 
