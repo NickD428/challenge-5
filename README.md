@@ -34,4 +34,6 @@
   Project created by NickD248!
   Check out my other works here! https://github.com/NickD248
   Questions? Contact me here: chargerfan428@aol.com
-  
+
+
+  ![planner](https://github.com/NickD428/planner/assets/126355678/f3191150-cb93-40df-903a-7d4a57c454cf)
